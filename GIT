@@ -23,3 +23,18 @@
     ;-git add .
         +thêm thay đổi cho tất cả các file
         
+    ;-git commit -m "Nội dung..."
+        +để đưa những file ở vùng staging area chuyển sang reposiroty, mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của repository
+        +với điều kiện các tập tin, thư mục đc thay đổi phỉa nằm trong straging area
+
+    ;-git log
+        +giúp xem thông tin lịch sử commit(mới ở trên, cũ ở dưới)
+        
+    ;-git show commit_id
+        +xem chi tiết nội dung commit
+
+    ;-git diff
+        +xem nội dung 1 file sau khi chỉnh sửa(file đó đang ở Working)
+    
+    ;-gitk
+        +mở dashboard xem trực quan hơn
