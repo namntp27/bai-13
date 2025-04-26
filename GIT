@@ -1,0 +1,25 @@
+1. Git
+    ;-git là 1 hệ thống quản lí phiên bản phân tán
+    ;-git cung cấp cho mỗi lập trình viên kho lưu trữ(repository) riêng chứa toàn bộ lịch sử thay đổi
+    ;-ưu điểm: nhanh, đơn giản, phân tán phù hợp với dự án lớn nhỏ
+
+2. Các thuật ngữ
+    ;-Working directory(thư mục làm việc): Khu vực chứa dự án mà ta đang làm
+    ;-Staging area(khu vực sắp xếp): khu vực chứa thông tin thay đổi của các file
+    ;-Repository(Git directory-thư mục git): kho lưu trữ để lưu trữ dữ liệu, lịch sử các phiên bản
+
+3.1. Các câu lệnh git phổ biến
+    ;-git init
+        +khởi tạo 1 git repository(kho lưu trữ) trong 1 dự án mới hoặc dự án đã có(dùng trong thư mục gốc của dự án)
+        +khi khởi tạo xong sẽ sinh ra 1 thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án
+    
+    ;-git status
+        +để xem trạng thái của những file đc thay đổi (thêm sửa xóa) trong dự án
+
+    ;-git add ten_file
+        +thông tin các file đc lưu vào "Staging area"
+        +"Staging area" có tác dụng 'sắp xếp lại' những file đã add vào
+        
+    ;-git add .
+        +thêm thay đổi cho tất cả các file
+        
