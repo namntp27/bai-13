@@ -38,3 +38,9 @@
     
     ;-gitk
         +mở dashboard xem trực quan hơn
+
+    ;-git checkout -- ten_file
+        +bỏ đi những thay đổi của file, để file trở về như lúc ban đầu(dùng cho vùng Working directory)
+    
+    ;-git reset ten_file
+        +chuyển file từ vùng staging area trở lại vùng Working directory
