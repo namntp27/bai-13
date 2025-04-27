@@ -44,3 +44,26 @@
     
     ;-git reset ten_file
         +chuyển file từ vùng staging area trở lại vùng Working directory
+    
+    ;-git reset --soft commit_id
+        +dùng để chuyển từ trạng thái đã commit về trạng thái trc lúc chạy commit
+        +từ reposiroty về straging area (commit_id là nhánh mà ta muốn quay lại)
+
+    ;-git reset --mixed commit_id
+        +dùng để chuyển trạng thái đã commit về trạng thái trc lúc chạy lệnh git add
+        +tức là từ reposiroty về lại Working area (commit_id là nhánh mà ta muốn quay lại)
+
+    ;-git branch
+        +xem danh sách các nhánh
+    
+    ;-git checkout -b ten_nhanh
+        +tạo 1 nhánh mới và chuyển sang nhánh đó
+    
+    ;-git checkout ten_nhanh
+        +chuyển sang nhánh khác
+
+    ;-git merger ten_nhanh
+        +để merge nhánh <ten_nhanh> vào trong nhánh hiện tại
+    
+    ;-git branch -D ten nhanh
+        +để xóa nhánh
